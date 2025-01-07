@@ -218,3 +218,4 @@ function showResult() {
 function restartQuiz() {
     document.getElementById("resultContainer").style.display = "none";
     startQuiz();
+}

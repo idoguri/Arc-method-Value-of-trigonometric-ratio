@@ -1,5 +1,6 @@
 const allQuestions = [
 
+    // sin questions
     {
         "question": "sin(0)",
         "options": ["1", "0", "1/2", "1/√2"],
@@ -46,6 +47,48 @@ const allQuestions = [
         "answer": "0"
     },
     {
+        "question": "sin(7π/6)",
+        "options": ["-1", "-1/2", "-√3/2", "1/√2"],
+        "answer": "-1/2"
+    },
+    {
+        "question": "sin(5π/4)",
+        "options": ["-1", "-1/2", "-1/√2", "-√3/2"],
+        "answer": "-1/√2"
+    },
+    {
+        "question": "sin(4π/3)",
+        "options": ["-1", "-1/2", "-√3/2", "1/√2"],
+        "answer": "-√3/2"
+    },
+    {
+        "question": "sin(3π/2)",
+        "options": ["-1", "0", "1/2", "√3/2"],
+        "answer": "-1"
+    },
+    {
+        "question": "sin(5π/3)",
+        "options": ["-1", "-1/2", "-√3/2", "1/2"],
+        "answer": "-√3/2"
+    },
+    {
+        "question": "sin(7π/4)",
+        "options": ["1", "-1/2", "-1/√2", "-√3/2"],
+        "answer": "-1/√2"
+    },
+    {
+        "question": "sin(11π/6)",
+        "options": ["1", "-1/2", "-√3/2", "-1/√2"],
+        "answer": "-1/2"
+    },
+    {
+        "question": "sin(2π)",
+        "options": ["1", "0", "-1", "√3/2"],
+        "answer": "0"
+    },
+
+    // cos questions
+    {
         "question": "cos(0)",
         "options": ["1", "0", "1/2", "1/√2"],
         "answer": "1"
@@ -91,6 +134,48 @@ const allQuestions = [
         "answer": "-1"
     },
     {
+        "question": "cos(7π/6)",
+        "options": ["-1", "-1/2", "-√3/2", "1/2"],
+        "answer": "-√3/2"
+    },
+    {
+        "question": "cos(5π/4)",
+        "options": ["-1", "-1/2", "-1/√2", "1"],
+        "answer": "-1/√2"
+    },
+    {
+        "question": "cos(4π/3)",
+        "options": ["-1", "-1/2", "-√3/2", "1/√2"],
+        "answer": "-1/2"
+    },
+    {
+        "question": "cos(3π/2)",
+        "options": ["-1", "0", "1/2", "1"],
+        "answer": "0"
+    },
+    {
+        "question": "cos(5π/3)",
+        "options": ["-1", "1/2", "-√3/2", "1"],
+        "answer": "1/2"
+    },
+    {
+        "question": "cos(7π/4)",
+        "options": ["1", "1/2", "√3/2", "1/√2"],
+        "answer": "1/√2"
+    },
+    {
+        "question": "cos(11π/6)",
+        "options": ["1", "1/2", "√3/2", "-1/2"],
+        "answer": "√3/2"
+    },
+    {
+        "question": "cos(2π)",
+        "options": ["1", "0", "-1", "1/2"],
+        "answer": "1"
+    },
+
+    // tan questions
+    {
         "question": "tan(0)",
         "options": ["0", "1/2", "1", "×"],
         "answer": "0"
@@ -132,6 +217,46 @@ const allQuestions = [
     },
     {
         "question": "tan(π)",
+        "options": ["0", "-1", "1/2", "×"],
+        "answer": "0"
+    },
+    {
+        "question": "tan(7π/6)",
+        "options": ["1/√3", "-√3", "-1", "-1/√3"],
+        "answer": "1/√3"
+    },
+    {
+        "question": "tan(5π/4)",
+        "options": ["1", "-1", "-√3", "-1/√3"],
+        "answer": "1"
+    },
+    {
+        "question": "tan(4π/3)",
+        "options": ["1", "-1/√3", "√3", "-√3"],
+        "answer": "√3"
+    },
+    {
+        "question": "tan(3π/2)",
+        "options": ["×", "0", "1/2", "1"],
+        "answer": "×"
+    },
+    {
+        "question": "tan(5π/3)",
+        "options": ["1", "-√3", "√3", "-1/√3"],
+        "answer": "-√3"
+    },
+    {
+        "question": "tan(7π/4)",
+        "options": ["1", "-1", "-√3", "-1/√3"],
+        "answer": "-1"
+    },
+    {
+        "question": "tan(11π/6)",
+        "options": ["1/√3", "-√3", "-1", "-1/√3"],
+        "answer": "-1/√3"
+    },
+    {
+        "question": "tan(2π)",
         "options": ["0", "-1", "1/2", "×"],
         "answer": "0"
     }
@@ -219,3 +344,4 @@ function restartQuiz() {
     document.getElementById("resultContainer").style.display = "none";
     startQuiz();
 }
+
